@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins|Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+// header ............... //
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: Roboto,sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .container{
+        .navbar-brand{
+            .logo{
+                width: 50px;
+            }
+        }
+        .navbar-toggler{
+            background-color: rgba(209, 9, 9, 0.418);
+        }
+        .collapse{
+            .navbar-nav{
+                margin-left: 58%;
+                .nav-item{
+                    .nav-link{
+                        color: rgb(194, 4, 4);
+                        font-size: 20px;
+                        text-decoration: none;
+                    }
+                    .nav-link:hover{
+                        font-weight: 700;
+                        color: green;
+                    }
+                }
+                .dropdown{
+                    .dropdown-menu{
+                       border: none;
+                       height: 65px;
+                       min-width: 8.2rem;
+                       background-color: rgba(220, 219, 219, 0.453);
+                        li{
+                            .nav-link:hover{
+                                font-weight: 700;
+                                color: rgb(194, 4, 4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// ......................... //
+
+// responsive header ............. //
+@media only screen and (max-width: 1200px) {
+    #header{
+        .container{
+            .collapse{
+                .navbar-nav{
+                    margin-left: auto;
+                    .example{
+                        input{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// .............................//

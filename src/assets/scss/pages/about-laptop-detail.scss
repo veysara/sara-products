@@ -1,0 +1,26 @@
+.lp-detail{
+    .container{
+        .form-group{
+            padding: 20px 20%;
+            .title{
+                color: rgb(194, 4, 4);
+            }
+            .image-detail{
+                width: 100%;
+            }
+            .step{
+                color: rgb(194, 4, 4);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .lp-detail{
+        .container{
+            .form-group{
+                padding: 10px 10px;
+            }
+        }
+    }
+}

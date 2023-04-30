@@ -1,0 +1,54 @@
+#about-contact {
+    .container {
+        .title {
+            color: rgb(194, 4, 4);
+        }
+        .content {
+            form {
+                .user-details {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin: 20px 0 12px 0;
+                }
+                .input-box {
+                    width: calc(100% / 2 - 20px);
+                    margin-bottom: 20px;
+                }
+                .button {
+                    height: 45px;
+                    margin: 35px 0;
+                    input {
+                        height: 100%;
+                        border-radius: 5px;
+                        border: none;
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 500;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                        background-color: rgb(194, 4, 4);
+                    }
+                    input:hover {
+                        background-color: green;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 576px) {
+        .container {
+            .content {
+                form {
+                    .user-details {
+                        display: block;
+                        justify-content: center;
+                        .input-box {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

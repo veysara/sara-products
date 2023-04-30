@@ -1,0 +1,30 @@
+#desktop-price{
+    .s-desktop{
+        .col-12{
+            padding: 20px 20%;
+            h3{
+                color: rgb(194, 4, 4);
+            }
+            .image{
+                .img-fluid{
+                    width: 100%;
+                }
+            }
+            h4{
+                strong{
+                    color: green;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    #desktop-price{
+        .s-desktop{
+            .col-12{
+                padding: 20px 5%;
+            }
+        }
+    }
+}
